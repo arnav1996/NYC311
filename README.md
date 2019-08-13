@@ -1,29 +1,30 @@
 # Analysis of NYC-311 Service Request Data
-Background:
+
+### Overview
 
 311 Service Requests encompass all non-emergency requests from the city, including but not limited to noise complaints, air quality issues and reports of unsanitary conditions etc. The 311 calls in New York City (NYC) are publicly available.
 
 311 service request dataset is available at https://data.cityofnewyork.us/Social-Services/311- Service-Requests- from-2010-to-Present/erm2-nwe9
 
-Problem Statements and Motivation:
+### Problem Statement
 
 Analysis of 311 calls can be of great use for a wide variety of purposes, ranging from a rich understanding of the status of a city to the effectiveness of the government services in addressing such calls.
 
-In our analysis, we want to answer following questions
+#### key questions
 
 1. What are different type of Service Requests(SRs)? Which is most/least frequent?
 
-2. From which borough most SRs come from? 
+2. From which borough most SRs come from?
 
-3. Which SRs peaks at what time of year or time of day? 
+3. Which SRs peaks at what time of year or time of day?
 
-4. How air quality issues relate to different boroughs? 
+4. How air quality issues relate to different boroughs?
 
 5. The agencies which are more efficient in solving SRs.
 
 6. From which type of location we get most number of complaints?
 
-Next thing we want to find out or predict is: 
+#### other questions
 
 1. Predict time required in terms of range of days to resolve a specific complaint in a specific borough.
 
@@ -34,12 +35,14 @@ Next thing we want to find out or predict is:
 4. To do a time series analysis of the storm data to find out the weekly or daily seasonality.
 
 
+### references
+
 The storm events dataset is available at
 https://www.ncdc.noaa.gov/stormevents/choosedates.jsp?statefips=36%2CNEW+YORK
 This dataset contains features such as Location, County, Date, Type, Magnitude and few features telling about the damage caused by the event.
 
 
-Outcomes of Analysis:
+### Sample Outcomes
 
 ![Complaints Distribution Across Boroughs](https://github.com/ayush159/NYC-311/blob/master/graphs/distribution.png)
 
@@ -48,4 +51,3 @@ Outcomes of Analysis:
 ![Air_Quality issue distribution across NYC](https://github.com/ayush159/NYC-311/blob/master/graphs/air_quality.png)
 
 ![Response Time Comparison](https://github.com/ayush159/NYC-311/blob/master/graphs/complaints.png)
-
